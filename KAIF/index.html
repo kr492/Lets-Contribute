@@ -5,27 +5,75 @@
         <script rel="stylesheet" href="style.css"></script>
 
         <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                background-color:hsl(217, 54%, 11%);
+            }
             .container{
-                
+                margin:5%;
+                padding:25px;
+                border-radius: 10px;
+                height:max-content;
+                width:max-content;
+                background-color: rgba(22, 31, 56, 0.8);
+                box-shadow: 0px 5px 10px grey;
+                border-style: inset;
+            }
+            .box{
+                border-style:ridge;
+                padding: 10px 20px;
+                background-color: rgba(255, 255, 255, 0.13);
+            }
+            .image{
+            }
+            .one,.two,.three,.four{
+                padding: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: antiquewhite;
+            }
+            a:hover{
+                color: aqua;
+            }
+            .name{
+                background-color: hsl(216, 50%, 16%);
+                color: azure;
+                padding: 4px;
+                border-style: outset;
             }
         </style>
     </head>
 
     <body>
+    <center>
         <div class="container">
             <div class="image">
-                <img src="profile.jpg">
+                <img style="border-radius: 150px; border-style: groove;" src="profile.jpg">
 
             </div>
                 <br>
             <div class="name">Mohammad Kaif Raza K Ansari</div>
             <br>
-            <div>
-                <a class="one" href="https://www.linkedin.com/in/kaif-raza-a17346221">linkedIn</a><br>
-                <a class="two" href="https://instagram.com/md_kaifraza_492?igshid=YmMyMTA2M2Y=">Instagram</a><br>
-                <a class="three" href="https://github.com/kr492">Github</a><br>
-                <a class="four" href="https://twitter.com/KaifRaz32991038">Twitter</a>
+            <div class="box">
+                <section class="one">
+                    <img style="height:15%; width: 15%; margin-bottom:-13px; margin-right: -12px;" src="in1.png">
+                <a  href="https://www.linkedin.com/in/kaif-raza-a17346221" >LinkedIn</a><br>
+                </section>
+                <section class="two">
+                    <img style="height:15%; width: 15%; margin-bottom:-13px; margin-right: -15px;" src="inst1.png">
+                <a  href="https://instagram.com/md_kaifraza_492?igshid=YmMyMTA2M2Y=">Instagram</a><br>
+                </section>
+                <section class="three">  
+                    <img style="height:10%; width: 10%; margin-bottom:-13px; margin-right: -8px;" src="gh1.png">
+                <a  href="https://github.com/kr492">Github</a><br>
+                </section>
+                <section class="four">
+                    <img style="height:15%; width: 15%; margin-bottom:-13px; margin-right: -12px;" src="twtr1.png">
+                <a  href="https://twitter.com/KaifRaz32991038">Twitter</a>
+                </section>
             </div>
         </div>
+    </center>
     </body>
 </html>
